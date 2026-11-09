@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      id-token: obligatoire pour OIDC si configuré 
+      id-token:  
       contents: read
 
     steps: 
