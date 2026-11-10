@@ -30,6 +30,7 @@ jobs:
           role-to-assume: arn:aws:iam::849415223281:role/PolicyDeploiementECS
           aws-region: us-east-1
           audience: sts.amazonaws.com
+          d
 
       - name: Login to Amazon ECR 
         id: login-ecr
